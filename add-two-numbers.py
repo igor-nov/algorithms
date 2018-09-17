@@ -71,6 +71,53 @@ class Solution(object):
         return new_node_header
 
 
+    def addTwoNumbers2(self, l1, l2):
+
+        offset = 0
+        new_node = ListNode(offset)
+        current = new_node
+        item1 = l1
+        item2 = l2
+
+        while True:
+            try:
+                if item1.val:
+                    value1 = item1.val
+                else:
+                    value1 = 0
+
+                if item2.val:
+                    value2 = item2.val
+                else:
+                    value2 = 0
+
+                sum = value1 + value2 + current.val
+                offset = sum / 10
+                current.val = sum % 10
+                if item1.next is not None or item2.next is not None or offset:
+                    current.next = ListNode(offset)
+                    current = current.next
+
+                    if item1.next is not None:
+                        item1 = item1.next
+                    else:
+                        item1=ListNode(0)
+
+                    if item2.next is not None:
+                        item2 = item2.next
+                    else:
+                        item2 = ListNode(0)
+
+                else:
+                    break
+            except Exception as e:
+                print 'exeption : %s' % e
+                break
+
+        return new_node
+
+
+
 l1_1 = ListNode(2)
 l1_2 = ListNode(4)
 l1_3 = ListNode(3)
