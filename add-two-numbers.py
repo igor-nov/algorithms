@@ -2,7 +2,7 @@
 https://leetcode.com/problems/add-two-numbers/description/
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
-You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+You may assum_rese the two numbers do not contain any leading zero, except the number 0 itself.
 
 Example:
 
@@ -12,11 +12,13 @@ Explanation: 342 + 465 = 807.
 
 """
 
+
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
         self.val = x
         self.next = None
+
 
 class Solution(object):
 
@@ -70,7 +72,6 @@ class Solution(object):
 
         return new_node_header
 
-
     def addTwoNumbers2(self, l1, l2):
 
         offset = 0
@@ -91,9 +92,10 @@ class Solution(object):
                 else:
                     value2 = 0
 
-                sum = value1 + value2 + current.val
-                offset = sum / 10
-                current.val = sum % 10
+                sum_res = value1 + value2 + current.val
+                offset = sum_res / 10
+                current.val = sum_res % 10
+
                 if item1.next is not None or item2.next is not None or offset:
                     current.next = ListNode(offset)
                     current = current.next
@@ -101,7 +103,7 @@ class Solution(object):
                     if item1.next is not None:
                         item1 = item1.next
                     else:
-                        item1=ListNode(0)
+                        item1 = ListNode(0)
 
                     if item2.next is not None:
                         item2 = item2.next
@@ -110,12 +112,12 @@ class Solution(object):
 
                 else:
                     break
+
             except Exception as e:
                 print 'exeption : %s' % e
                 break
 
         return new_node
-
 
 
 l1_1 = ListNode(2)
