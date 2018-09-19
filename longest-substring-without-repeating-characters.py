@@ -24,6 +24,29 @@ Explanation: The answer is "wke", with the length of 3.
 
 class Solution(object):
 
+
+    def lengthOfLongestSubstring22(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        appearences = {}        
+        start_idx = 0
+        max_len = 0
+
+        for current_idx, ch in enumerate(s):
+
+            if ch in appearences and start_idx <= appearences[ch]:
+                start_idx = appearences[ch] + 1
+            else:
+                max_len = max(max_len, current_idx - start_idx + 1)
+
+            appearences[ch] = current_idx
+
+        return max_len
+            
+
+    
     """ it's possible to return string in case if necessary"""
     def lengthOfLongestSubstring(self, s):
         """
@@ -100,7 +123,7 @@ class Solution(object):
 #input = 'aab'
 # 3
 #input = 'aabaab!bb'
-#6
+#7
 input = 'bpfbhmipx'
 solution = Solution()
 res = solution.lengthOfLongestSubstring(input)
