@@ -7,6 +7,7 @@ The integer division should truncate toward zero.
 
 https://leetcode.com/problems/divide-two-integers/discuss/13407/Detailed-Explained-8ms-C%2B%2B-solution
 https://leetcode.com/problems/divide-two-integers/discuss/13467/Very-detailed-step-by-step-explanation-(Java-solution)
+https://leetcode.com/problems/divide-two-integers/discuss/13403/Clear-python-code
 """
 
 
