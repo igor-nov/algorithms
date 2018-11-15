@@ -23,7 +23,7 @@ class Solution(object):
         return (lo + hi) / 2
     
     def binarySearch(self, nums, target, lo, hi):        
-        while lo < hi:
+        while lo <= hi:
             med = self.getMedian(lo, hi)
 #             print 'lo %s , med %s hi %s' % (lo, med, hi)
 #             print '%s - %s - %s' % (nums[lo], nums[med], nums[hi])
@@ -33,11 +33,8 @@ class Solution(object):
                 lo = med + 1
             else:
                 hi = med - 1
-        
-        if nums[lo] == target:
-            return lo
-        else:
-            return -1
+				
+        return -1
         
     
     
