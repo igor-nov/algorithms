@@ -1,4 +1,6 @@
 """
+@todo - fix divide and conquer to fit O(n) time 
+
 Maximum Subarray - 
 Solution 1 - Runtime: 24 ms, faster than 99.98% of Python online submissions for Maximum Subarray.
 
@@ -19,6 +21,7 @@ https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
 
 Solution 2
 https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/ - Divide and Conquer
+https://leetcode.com/problems/maximum-subarray/discuss/20372/How-to-solve-%22Maximum-Subarray%22-by-using-the-divide-and-conquer-approach
 """
 
 class Solution(object):
@@ -60,7 +63,8 @@ class Solution(object):
         return maxLeft + maxRight
         
         
-    #Divide and Conquer algorithm # time limit
+    #Divide and Conquer algorithm 
+	# https://leetcode.com/problems/maximum-subarray/discuss/20372/How-to-solve-%22Maximum-Subarray%22-by-using-the-divide-and-conquer-approach
     # ~O(n log n)
     def maxSubArray2(self, nums, lo=None, hi=None):
         

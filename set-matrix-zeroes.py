@@ -1,3 +1,57 @@
+"""
+73. Set Matrix Zeroes
+
+Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in-place.
+
+Example 1:
+Input: 
+[
+  [1,1,1],
+  [1,0,1],
+  [1,1,1]
+]
+Output: 
+[
+  [1,0,1],
+  [0,0,0],
+  [1,0,1]
+]
+
+-----
+
+
+Example 2:
+Input: 
+[
+  [0,1,2,0],
+  [3,4,5,2],
+  [1,3,1,5]
+]
+Output: 
+[
+  [0,0,0,0],
+  [0,4,5,0],
+  [0,3,1,0]
+]
+
+
+Follow up:
+A straight forward solution using O(mn) space is probably a bad idea.
+A simple improvement uses O(m + n) space, but still not the best solution.
+Could you devise a constant space solution?
+
+
+Solutions:
+https://leetcode.com/problems/set-matrix-zeroes/solution/
+https://leetcode.com/problems/set-matrix-zeroes/discuss/26014/Any-shorter-O(1)-space-solution
+https://leetcode.com/problems/set-matrix-zeroes/discuss/26008/My-AC-java-O(1)-solution-(easy-to-read)
+https://leetcode.com/problems/set-matrix-zeroes/discuss/26038/My-C%2B%2B-O(1)-yoooooo
+
+
+"""
+
+
+
 class Solution(object):
     
 	
@@ -111,7 +165,7 @@ class Solution(object):
 	"""
 	Solution 2 / simplified
 	O(1) space
-	Runtime: 148 ms, faster than 20.74% of Python online submissions for Set Matrix Zeroes.
+	Runtime: 112 ms, faster than 33.70% of Python online submissions for Set Matrix Zeroes.
 	"""
 	
 	    def setZeroesHelper(self, matrix):
@@ -154,6 +208,18 @@ class Solution(object):
         if is1stColZeroes:
             for rowIdx in xrange(len(matrix)):
                 matrix[rowIdx][0] = 0
+				
+		#or
+		"""
+		for rowIdx in xrange(len(matrix)-1, -1, -1):
+            for colIdx in xrange(len(matrix[0])-1, 0, -1):
+                if matrix[rowIdx][0] == 0 or matrix[0][colIdx] == 0:
+                    matrix[rowIdx][colIdx] = 0
+        
+        if is1stColZeroes:
+            for rowIdx in xrange(len(matrix)):
+                matrix[rowIdx][0] = 0
+        """         
 				
 				
 				
