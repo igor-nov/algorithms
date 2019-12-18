@@ -1,0 +1,10 @@
+.idea/*
+**/*.iml
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+/contests/
+/interview/
+/real_google_questions/
+/spam/
