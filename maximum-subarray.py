@@ -14,7 +14,12 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 Follow up:
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
-Examples:
+
+Solutions:
+
+This is Kadane's Algorithm
+Max Contiguous Subarray Sum - Cubic Time To Kadane's Algorithm ("Maximum Subarray" on LeetCode) - https://www.youtube.com/watch?v=2MmGzdiKR9Y
+Kadane's Algorithm to Maximum Sum Subarray Problem  https://www.youtube.com/watch?v=86CQq3pKSUw&feature=youtu.be&t=266
 
 Solution 1
 https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
