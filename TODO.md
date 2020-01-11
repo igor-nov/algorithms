@@ -5,9 +5,16 @@
 134. Gas Station
 516. Longest Palindromic Subsequence
 
+1249. Minimum Remove to Make Valid Parentheses - facebook
+261. Graph Valid Tree // + solution https://leetcode.com/problems/graph-valid-tree/discuss/443909/Python.-Collection-of-'easy-to-understand'-solutions.-BFS-DFS-and-Union-Find
+
 Manacher's Algorithm - 5, 647
 
 
+maybe
+241. Different Ways to Add Parentheses
+1187. Make Array Strictly Increasing - hard
+630. Course Schedule III - hard
 
 ## Arrays
 
