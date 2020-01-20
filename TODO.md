@@ -1,5 +1,10 @@
 # LeetCode Problems
 
+843. Guess the Word - hard - google
+1007. Minimum Domino Rotations For Equal Row - google (med)
+1153. String Transforms Into Another String - google
+410. Split Array Largest Sum - google
+809. Expressive Words - google string 
 
 378. Kth Smallest Element in a Sorted Matrix
 134. Gas Station
