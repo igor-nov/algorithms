@@ -10,6 +10,7 @@
 134. Gas Station
 516. Longest Palindromic Subsequence
 
+  
 1249. Minimum Remove to Make Valid Parentheses - facebook
 261. Graph Valid Tree // + solution https://leetcode.com/problems/graph-valid-tree/discuss/443909/Python.-Collection-of-'easy-to-understand'-solutions.-BFS-DFS-and-Union-Find
 
@@ -22,6 +23,11 @@ maybe
 630. Course Schedule III - hard
 
 ## Arrays
+47. Permutations II
+1007 Minimum Domino Rotations For Equal Row   
+4 Median of Two Sorted Arrays
+DECODE WAYS (LeetCode)
+56	Merge Intervals 
 
 ## Graphs
 
@@ -43,4 +49,5 @@ Egg Dropping Dynamic Programming
 
 ## Can't solve 1st
 96. Unique Binary Search Trees
+31. Next Permutation
 

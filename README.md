@@ -10,19 +10,31 @@
 !238. Product of Array Except Self [16.01.20]
 289. Game of Life [17.01.20]
 !33. Search in Rotated Sorted Array [19.01.20]
-!!!!560. Subarray Sum Equals K [.01.20]
+!!!!560. Subarray Sum Equals K [20.01.20]
+1. Two Sum [20.01.20]
+42. Trapping Rain Water [21.01.20]
+54. Spiral Matrix [21.01.20]
+!46. Permutations [22.01.20]
+!!!!31. Next Permutation [22.01.20]
+!!380. Insert Delete GetRandom O(1) [23.01.20]
+!!381. Insert Delete GetRandom O(1) - Duplicates allowed [23.01.20]
 
 
 ## Binary Search
 
 ## Graph
-!! 332. Reconstruct Itinerary !! 09.01.20
-!! 207. Course Schedule - !! 09.01.20
+!!!! 332. Reconstruct Itinerary !! 09.01.20
+!!!! 207. Course Schedule - !! 09.01.20
 210. Course Schedule II - 10.01.20
 133. Clone Graph - 11.01.20
 !! 785. Is Graph Bipartite? - 14.01.20
 
 ## Heap
+## Hash Table
+1. Two Sum [20.01.20]
+!!380. Insert Delete GetRandom O(1) [23.01.20]
+!!381. Insert Delete GetRandom O(1) - Duplicates allowed [23.01.20]
+
 
 ## Trees
 96. Unique Binary Search Trees [03.1.20]
@@ -35,23 +47,25 @@
 5. Longest Palindromic Substring [04.01.20]
 
 
+
 ## 
 ### Timeline ###
 18.12.20 - 442, 448, 41 
 03.1.20 - 96
 04.1.20 - 95, 53, 5 (with help), 647
-07.1.20 - 332 (can't solve)
-09.1.20 - 207 (can't solve)
+07.1.20 - 332
+09.1.20 - 207
 10.1.20 - 210 
-11.1.20 - 133 
-11.1.20 - 1315 
+11.1.20 - 133, 1315 
 12.1.20 - 1313
 14.1.20 - 785 
-15.1.20 - 16 (can't solve) 
-15.1.20 - 15
+15.1.20 - 16 (can't solve), 15
 16.01.20 - 238
 17.01.20 - 289
 19.01.20 - 33
-20.01.20 - 560
+20.01.20 - 560, 1
+21.01.20 - 42, 54
+22.01.20 - 46, 31
+23.01.20 - 380, 381
 
  

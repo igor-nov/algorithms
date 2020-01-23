@@ -25,7 +25,7 @@ Python binary search solution - O(logn) - 48ms - https://leetcode.com/problems/s
 
 from typing import List
 
-
+# wrong - O(n) time
 class Solution1:
     def search(self, nums: List[int], target: int) -> int:
         if not nums:
