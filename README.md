@@ -22,12 +22,14 @@
 1331. Rank Transform of an Array [25.01.20]
 !!1329. Sort the Matrix Diagonally [26.01.20]
 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold [10.02.20]
+!!! 1007. Minimum Domino Rotations For Equal Row [22.02.20]
+! 1386. Cinema Seat Allocation [23.03.20]
+!1385. Find the Distance Value Between Two Arrays [21.03.20]
 
 
-## Strings
-!!1328. Break a Palindrome [26.01.20]
 
 ## Binary Search
+
 
 ## Graph
 !!!! 332. Reconstruct Itinerary !! 09.01.20
@@ -65,10 +67,40 @@ https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-quest
 !!!!221. Maximal Square [03.02.20]
 
 
+## Tree
+!!!!1372. Longest ZigZag Path in a Binary Tree [03.09.20]
+
+
 ## Backtracking
 
 ## Bit Manipulation !!1
 1342. Number of Steps to Reduce a Number to Zero [10.02.20]
+
+## Math
+!! 1344. Angle Between Hands of a Clock [11.02.20]
+
+## Sorting
+!!!! 324. Wiggle Sort II [16.02.20]
+
+
+## Strings
+!!1328. Break a Palindrome [26.01.20]
+929. Unique Email Addresses [24.01.20]
+!! 556. Next Greater Element III [02.03.20]
+1370. Increasing Decreasing String [10.04.20]
+
+
+## Stack
+!! 42. Trapping Rain Water [21.01.20]
+!!!! 496. Next Greater Element I [29.02.20]
+! 503. Next Greater Element II [01.03.20]
+739. Daily Temperatures [03.03.20]
+!!!! 84. Largest Rectangle in Histogram [04.03.20] 
+
+
+
+## Greedy
+!!! 1007. Minimum Domino Rotations For Equal Row [22.02.20]
 
 ## 
 ### Timeline ###
@@ -101,6 +133,19 @@ https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-quest
 01.02.20 - 91
 01.02.20 - 221
 10.02.20 - 1342
+11.02.20 - 1344
+16.02.20 - 324
+22.02.20 - 1007
+24.02.20 - 929
+29.02.20 - 496
+01.03.20 - 503
+02.03.20 - 556
+03.03.20 - 739
+04.03.20 - 84
+09.03.20 - 1372
+10.03.20 - 1370
+21.03.20 - 1385
+23.03.20 - 1386
 
 
  

@@ -24,11 +24,21 @@ Solution 5 -- !!!!!!!
 Runtime: 40 ms, faster than 98.68% of Python3 online submissions for Trapping Rain Water.
 Memory Usage: 13.4 MB, less than 97.67% of Python3 online submissions for Trapping Rain Water.
 
+Solution 6 - stack
+Runtime: 44 ms, faster than 95.49% of Python3 online submissions for Trapping Rain Water.
+Memory Usage: 13.3 MB, less than 97.67% of Python3 online submissions for Trapping Rain Water.
+
 Solutions
-Programming Interview Question: Trapping Rain Water between Towers Problem - https://www.youtube.com/watch?v=qn-wuF24X1w
+Programming Interview Question: Trapping Rain Water between Towers Problem - https://www.youtube.com/watch?v=KV-Eq3wYjxI
 Trapping Rain Water Python Walkthrough (Leetcode #42) - https://www.youtube.com/watch?v=qn-wuF24X1w
 (photo in comments) Share my short solution. - https://leetcode.com/problems/trapping-rain-water/discuss/17391/Share-my-short-solution.
 Java, O(n) time and O(1) space (with explanations). - https://leetcode.com/problems/trapping-rain-water/discuss/153992/Java-O(n)-time-and-O(1)-space-(with-explanations).
+
+stack
+This is just same as LC84. Monotonic stack - https://leetcode.com/problems/trapping-rain-water/discuss/201541/This-is-just-same-as-LC84.-Monotonic-stack
+https://leetcode.com/problems/trapping-rain-water/solution/
+A stack based solution for reference, inspired by Histogram - https://leetcode.com/problems/trapping-rain-water/discuss/17414/A-stack-based-solution-for-reference-inspired-by-Histogram
+Stack with Explanation (Java / Python / Scala) - https://leetcode.com/problems/trapping-rain-water/discuss/178028/Stack-with-Explanation-(Java-Python-Scala)
 """
 from typing import List
 
@@ -99,7 +109,7 @@ class Solution3:
 
         return sum_total
 
-class Solution:
+class Solution4:
     def trap(self, height: List[int]) -> int:
 
         lo, hi = 0, len(height)-1
@@ -118,7 +128,7 @@ class Solution:
 
         return sum_total
 
-class Solution:
+class Solution5:
     def trap(self, height: List[int]) -> int:
 
         lo, hi = 0, len(height)-1
@@ -136,6 +146,33 @@ class Solution:
                 hi -= 1
         return sum_total
 
+
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        # [0,1,0,2,1,0,1,3,2,1,2,1]
+        # [0(0)]
+        # 1
+        # [] -> 0(0)
+        # top = 0(0)
+        # st empty -> continue
+        # 1[1(1)]
+        # 2 [1(1), 2(0)]
+        # 3(2) [1(1), 2(0)] -> 2 > 0 ? ->
+        # top -> 2(0)
+        # [1(1)]
+        # dist -> current(3) - st[-1](1)-1 = 1
+        #area = min(h[st[-1], h[current]) * 1 -> 1
+        stack, res = [], 0
+        for right_idx in range(len(height)):
+            while stack and height[stack[-1]] < height[right_idx]:
+                current_idx = stack.pop()
+                if not stack:
+                    break
+                dist = right_idx - stack[-1] - 1 # stack[-1]  -> left boundary
+                current_height = min(height[right_idx], height[stack[-1]]) - height[current_idx]
+                res += dist * current_height
+            stack.append(right_idx)
+        return res
 
 #####################
 import unittest
