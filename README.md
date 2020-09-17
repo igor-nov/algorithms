@@ -102,6 +102,9 @@ https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-quest
 ## Greedy
 !!! 1007. Minimum Domino Rotations For Equal Row [22.02.20]
 
+## Bit manipulation
+1371. Find the Longest Substring Containing Vowels in Even Counts [19.09.20]
+
 ## 
 ### Timeline ###
 121
@@ -146,6 +149,7 @@ https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-quest
 10.03.20 - 1370
 21.03.20 - 1385
 23.03.20 - 1386
+19.09.20 - 1371
 
 
  
