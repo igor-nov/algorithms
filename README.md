@@ -25,6 +25,7 @@
 !!! 1007. Minimum Domino Rotations For Equal Row [22.02.20]
 ! 1386. Cinema Seat Allocation [23.03.20]
 !1385. Find the Distance Value Between Two Arrays [21.03.20]
+1399. Count Largest Group [04.04.20]
 
 
 
@@ -98,9 +99,12 @@ https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-quest
 !!!! 84. Largest Rectangle in Histogram [04.03.20] 
 
 
+## Sort
+1387. Sort Integers by The Power Value [24.03.20]
 
 ## Greedy
 !!! 1007. Minimum Domino Rotations For Equal Row [22.02.20]
+!! 1400. Construct K Palindrome Strings [04.04.20]
 
 ## 
 ### Timeline ###
@@ -146,6 +150,9 @@ https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-quest
 10.03.20 - 1370
 21.03.20 - 1385
 23.03.20 - 1386
+24.03.20 - 1387
+04.04.20 - 1399
+04.04.20 - 1400
 
 
  
