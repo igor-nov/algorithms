@@ -106,6 +106,9 @@ https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-quest
 !!! 1007. Minimum Domino Rotations For Equal Row [22.02.20]
 !! 1400. Construct K Palindrome Strings [04.04.20]
 
+## Bit manipulation
+1371. Find the Longest Substring Containing Vowels in Even Counts [19.09.20]
+
 ## 
 ### Timeline ###
 121
@@ -153,6 +156,7 @@ https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-quest
 24.03.20 - 1387
 04.04.20 - 1399
 04.04.20 - 1400
+19.09.20 - 1371
 
 
  
